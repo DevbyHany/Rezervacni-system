@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Rezervace</title>
+</head>
+<body>
+
+<div class="container">
+    <div class="card">
+        <h1>Seznam rezervací </h1>
+
+        <p th:if="${success}" style="color: green" th:text="${success}"></p>
+        <p th:if="${error}" style="color: red" th:text="${error}"></p>
+
+        <table>
+            <thead>
+            <tr>
+                <th>ID</th>
+                <th>Jméno</th>
+                <th>Telefon</th>
+                <th>Datum</th>
+                <th>Čas</th>
+                <th>Akce</th>
+            </tr>
+            </thead>
+
+            <tbody>
+            <tr th:each="r : ${reservations}">
+                <td th:text="${r.id}"></td>
+                <td th:text="${r.customerName}"></td>
+                <td th:text="${r.customerPhone}"></td>
+                <td th:text="${#temporals.format(r.reservationDate, 'dd.MM.yyyy')}"></td>
+                <td th:text="${#temporals.format(r.reservationTime, 'HH:mm')}"></td>
+                <td>
+                    <div class="actions">
+                        <form th:action="@{/reservations/edit/{id}(id=${r.id})}" method="get">
+                            <button class="btn btn-primary" type="submit">Upravit</button>
+                        </form>
+
+                        <form th:action="@{/reservations/delete/{id}(id=${r.id})}" method="post">
+                            <button class="btn btn-danger" type="submit">Smazat</button>
+                        </form>
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+<p th:if="${success}" style="color: green" th:text="${success}"></p>
+
+</body>
+</html>

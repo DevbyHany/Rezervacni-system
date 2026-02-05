@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Služby</title>
+</head>
+<body>
+
+<h1>Služby</h1>
+
+<ul>
+    <li th:each="service : ${services}">
+        <strong th:text="${service.name}"></strong>
+        <span th:text="${service.priceFrom}"></span>
+        -
+        <span th:text=${service.priceTo}></span>
+        Kč |
+        <span th:text="${service.category}"></span>
+    </li>
+</ul>
+
+</body>
+</html>
