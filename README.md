@@ -42,14 +42,14 @@ Aplikace slouží jako demonstrační projekt pro práci s:
 - Node.js + npm  
 
 ## Spuštění backendu
-   1.Otevři terminál ve složce `backend`
-   2.zadej 'cd backend'
+   1. Otevři terminál ve složce `backend`
+   2. Zadej 'cd backend'
    3. ./mvnw spring-boot:run
-   4.Backend poběží na adrese http://localhost:8080
+   4. Backend poběží na adrese http://localhost:8080
    
 ## Spuštění frontendu (Vite)
-   1.Otevři terminál ve složce 'frontend'
-   2.Zadej 'cd frontend'
-   3.Zadej 'npm install'
-   4.Zadej 'npm run dev'
-   5.Frontend poběží na adrese http://localhost:5173
+   1. Otevři terminál ve složce 'frontend'
+   2. Zadej 'cd frontend'
+   3. Zadej 'npm install'
+   4. Zadej 'npm run dev'
+   5. Frontend poběží na adrese http://localhost:5173
