@@ -24,6 +24,7 @@ Aplikace slouží jako demonstrační projekt pro práci s:
 - Výpis všech rezervací v tabulce
 - Smazání rezervace (s potvrzením v modalu)
 - Načítání dat přes REST API
+- Úprava rezervace
 
 ## Backend
 - REST API pro práci se službami a rezervacemi
@@ -40,3 +41,15 @@ Aplikace slouží jako demonstrační projekt pro práci s:
 - Maven  
 - Node.js + npm  
 
+## Spuštění backendu
+   1.Otevři terminál ve složce `backend`
+   2.zadej 'cd backend'
+   3. ./mvnw spring-boot:run
+   4.Backend poběží na adrese http://localhost:8080
+   
+## Spuštění frontendu (Vite)
+   1.Otevři terminál ve složce 'frontend'
+   2.Zadej 'cd frontend'
+   3.Zadej 'npm install'
+   4.Zadej 'npm run dev'
+   5.Frontend poběží na adrese http://localhost:5173
