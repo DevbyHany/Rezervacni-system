@@ -42,14 +42,15 @@ Aplikace slouží jako demonstrační projekt pro práci s:
 - Node.js + npm  
 
 ## Spuštění backendu
-   1. Otevři terminál ve složce `backend`
-   2. Zadej 'cd backend'
-   3. ./mvnw spring-boot:run
-   4. Backend poběží na adrese http://localhost:8080
+   1. Klikni na zelené tlačítko CODE zde na githubu
+   2. Zvol Download ZIP
+   3. Stažený ZIP rozbal například do složky 'Rezervacni system'
+   4. Otevři IntelliJ IDEA
+   5. Zvol File -> Open a zvol složku 'Rezervacni system'
+   6. Najdi třídu ReservationApplication a spusť aplikaci
    
 ## Spuštění frontendu (Vite)
    1. Otevři terminál ve složce 'frontend'
-   2. Zadej 'cd frontend'
-   3. Zadej 'npm install'
-   4. Zadej 'npm run dev'
-   5. Frontend poběží na adrese http://localhost:5173
+   2. Zadej 'npm install'
+   3. Poté 'npm run dev'
+   4. Do prohlížeče zadej 'http://localhost:5173' a užij si aplikaci :)
