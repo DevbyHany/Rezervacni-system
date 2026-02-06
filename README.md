@@ -46,7 +46,7 @@ Aplikace slouží jako demonstrační projekt pro práci s:
    2. Zvol Download ZIP
    3. Stažený ZIP rozbal například do složky 'Rezervacni system'
    4. Otevři IntelliJ IDEA
-   5. Zvol File -> Open a zvol složku 'Rezervacni system'
+   5. Zvol File -> Open a zvol složku 'backend'
    6. Najdi třídu ReservationApplication a spusť aplikaci
    
 ## Spuštění frontendu (Vite)
