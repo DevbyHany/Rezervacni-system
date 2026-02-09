@@ -54,3 +54,13 @@ Aplikace slouží jako demonstrační projekt pro práci s:
    2. Zadej 'npm install'
    3. Poté 'npm run dev'
    4. Do prohlížeče zadej 'http://localhost:5173' a užij si aplikaci :)
+
+# Ukázky obrazovek
+
+<img width="1901" height="1248" alt="Rezervace" src="https://github.com/user-attachments/assets/7b802304-8571-41b1-8fb9-32664dbf8b67" />
+
+
+# Další rozvoj:
+- Lepší validace a zpracování chyb
+- Stránkování, řazení a filtrování dat
+- Testování aplikace, doplnění unit a integračních testů pro zvýšení stability a kvality kódu
