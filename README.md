@@ -35,7 +35,7 @@ Aplikace slouží jako demonstrační projekt pro práci s:
 ---
 
 # Spuštění projektu
-
+Heslo pro přihlášení admina: admin123
 ## Předpoklady:
 - Java 17+  
 - Maven  
