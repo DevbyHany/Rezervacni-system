@@ -1,6 +1,6 @@
 import './style.css'
 
-const API_BASE = 'http://localhost:8080/api'
+const API_BASE = 'https://rezervacni-system-production.up.railway.app/api'
 
 /**
  * Hlavní frontend logika PC Servis rezervačního systému.
