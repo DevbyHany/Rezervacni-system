@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form th:object="${reservation}" method="post" th:action="@{/reservations/create}">
+    <label>Jméno a příjmení</label>
+    <input type="text" th:field="*{customerName}">
+    <label>Telefonní číslo</label>
+    <input type="text" th:field="*{customerPhone}">
+    <label>Dne</label>
+    <input type="date" th:field="*{reservationDate}">
+    <labe>v</labe>
+    <input type="time" th:field="*{reservationTime}">
+    <button type="submit">Odeslat</button>
+    <p th:if="${error}" th:text="${error}"></p>
+</form>
+</body>
+</html>
