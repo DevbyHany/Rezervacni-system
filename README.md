@@ -3,7 +3,8 @@
 Fullstack webová aplikace pro správu rezervací servisních zásahů.
 Zákazníci si mohou rezervovat termín, administrátor spravuje rezervace a služby.
 
-# 🌐 **Live ukázka:** [extraordinary-playfulness-production-10c2.up.railway.app](https://extraordinary-playfulness-production-10c2.up.railway.app/)
+# 🌐 **Live ukázka:** 
+[extraordinary-playfulness-production-10c2.up.railway.app](https://extraordinary-playfulness-production-10c2.up.railway.app/)
 
 ---
 
