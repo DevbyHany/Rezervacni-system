@@ -3,6 +3,30 @@
 Fullstack webová aplikace pro správu rezervací servisních zásahů.
 Zákazníci si mohou rezervovat termín, administrátor spravuje rezervace a služby.
 
+🌐 **Live ukázka:** [extraordinary-playfulness-production-10c2.up.railway.app](https://extraordinary-playfulness-production-10c2.up.railway.app/)
+
+---
+
+## Screenshoty
+
+### Rezervace
+![Rezervace](docs/images/Rezervace.png)
+
+### Výběr služby
+![Výběr služby](docs/images/Rezervace%20-%20výběr%20služby.png)
+
+### Rezervační karta
+![Karta](docs/images/Rezervace%20-%20karta.png)
+
+### Admin – přihlášení
+![Admin přihlášení](docs/images/ADMIN%20-%20přihlášení.png)
+
+### Admin – správa rezervací
+![Admin rezervace](docs/images/ADMIN%20-%20rezervace.png)
+
+### Ceník
+![Ceník](docs/images/Ceník.png)
+
 ---
 
 ## Funkce
@@ -28,8 +52,7 @@ Zákazníci si mohou rezervovat termín, administrátor spravuje rezervace a slu
 
 ## Použité technologie
 
-**Backend:** Java, Spring Boot, Spring Data JPA, Hibernate, H2, Maven
-
+**Backend:** Java, Spring Boot, Spring Data JPA, Hibernate, H2, Maven  
 **Frontend:** JavaScript, Vite, CSS
 
 ---
@@ -54,14 +77,3 @@ Zákazníci si mohou rezervovat termín, administrátor spravuje rezervace a slu
 Projekt obsahuje unit testy pro servisní vrstvu (`ReservationServiceTest`).
 
 Spuštění testů:
-```
-.\mvnw test
-```
-
-Testované scénáře:
-- Vytvoření rezervace
-- Validace chybějícího data/času
-- Zamítnutí rezervace v minulosti
-- Zamítnutí obsazeného termínu
-- Smazání neexistující rezervace
-- Úspěšné smazání rezervace
