@@ -13,19 +13,19 @@ Zákazníci si mohou rezervovat termín, administrátor spravuje rezervace a slu
 ![Rezervace](backend/docs/images/Rezervace.png)
 
 ### Výběr služby
-![Výběr služby](docs/images/Rezervace%20-%20výběr%20služby.png)
+![Výběr služby](backend/docs/images/Rezervace%20-%20výběr%20služby.png)
 
 ### Rezervační karta
-![Karta](docs/images/Rezervace%20-%20karta.png)
+![Karta](backend/docs/images/Rezervace%20-%20karta.png)
 
 ### Admin – přihlášení
-![Admin přihlášení](docs/images/ADMIN%20-%20přihlášení.png)
+![Admin přihlášení](backend/docs/images/ADMIN%20-%20přihlášení.png)
 
 ### Admin – správa rezervací
-![Admin rezervace](docs/images/ADMIN%20-%20rezervace.png)
+![Admin rezervace](backend/docs/images/ADMIN%20-%20rezervace.png)
 
 ### Ceník
-![Ceník](docs/images/Ceník.png)
+![Ceník](backend/docs/images/Ceník.png)
 
 ---
 
