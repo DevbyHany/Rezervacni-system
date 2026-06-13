@@ -8,6 +8,18 @@ Zákazníci si mohou rezervovat termín, administrátor spravuje rezervace a slu
 
 ---
 
+## Testy
+
+Projekt obsahuje unit testy pro servisní vrstvu (`ReservationServiceTest`).
+
+Testované scénáře:
+- Vytvoření rezervace
+- Validace chybějícího data/času
+- Zamítnutí rezervace v minulosti
+- Zamítnutí obsazeného termínu
+- Smazání neexistující rezervace
+- Úspěšné smazání rezervace
+
 ## Screenshoty
 
 ### Rezervace
@@ -33,21 +45,21 @@ Zákazníci si mohou rezervovat termín, administrátor spravuje rezervace a slu
 ## Funkce
 
 ### Zákazník
-- Výběr služby z ceníku
+- Výběr služby
 - Rezervace termínu s validací (nelze rezervovat minulost, obsazený termín)
 - Vyplnění kontaktních údajů a popisu problému
 
 ### Administrátor
 - Přehled všech rezervací
 - Úprava a mazání rezervací
-- Správa nabízených služeb
+- Správa služeb
 
 ### Backend
-- REST API s vrstvená architekturou
+- REST API s vrstvenou architekturou
 - Validace vstupních dat
 - Globální zpracování výjimek
 - Kontrola duplicitních termínů
-- H2 in-memory databáze
+- H2 databáze
 
 ---
 
@@ -58,7 +70,7 @@ Zákazníci si mohou rezervovat termín, administrátor spravuje rezervace a slu
 
 ---
 
-## Spuštění projektu
+## Manuální spuštění projektu
 
 ### Backend
 1. Otevři složku `backend` v IntelliJ IDEA
@@ -73,8 +85,4 @@ Zákazníci si mohou rezervovat termín, administrátor spravuje rezervace a slu
 
 ---
 
-## Testy
 
-Projekt obsahuje unit testy pro servisní vrstvu (`ReservationServiceTest`).
-
-Spuštění testů:
