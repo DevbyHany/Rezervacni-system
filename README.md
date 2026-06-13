@@ -10,7 +10,7 @@ Zákazníci si mohou rezervovat termín, administrátor spravuje rezervace a slu
 ## Screenshoty
 
 ### Rezervace
-![Rezervace](docs/images/Rezervace.png)
+![Rezervace](backend/docs/images/Rezervace.png)
 
 ### Výběr služby
 ![Výběr služby](docs/images/Rezervace%20-%20výběr%20služby.png)
