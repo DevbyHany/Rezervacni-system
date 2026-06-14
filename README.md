@@ -8,8 +8,6 @@ Zákazníci si mohou rezervovat termín, administrátor spravuje rezervace a slu
 
 ---
 
-
-
 ## Screenshoty
 
 ### Rezervace
@@ -77,9 +75,7 @@ Zákazníci si mohou rezervovat termín, administrátor spravuje rezervace a slu
 
 ## Testy
 
-Projekt obsahuje unit testy pro servisní vrstvu (`ReservationServiceTest`).
-
-Testované scénáře:
+Projekt obsahuje unit testy pro servisní vrstvu (`ReservationServiceTest`)
 - Vytvoření rezervace
 - Validace chybějícího data/času
 - Zamítnutí rezervace v minulosti
