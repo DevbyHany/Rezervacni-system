@@ -6,6 +6,8 @@ Zákazníci si mohou rezervovat termín, administrátor spravuje rezervace a slu
 # 🌐 **Live ukázka:** 
 [extraordinary-playfulness-production-10c2.up.railway.app](https://extraordinary-playfulness-production-10c2.up.railway.app/)
 
+Přihlašovací heslo admina: admin123
+
 ---
 
 ## Screenshoty
