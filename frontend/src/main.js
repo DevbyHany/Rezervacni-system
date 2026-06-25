@@ -823,38 +823,28 @@ async function refreshTable() {
 
 //                          ---- EVENT LISTENERY / FORMULÁŘE / TABULKY ----
 
-adminLoginBtn?.addEventListener('click', () => {
-  if (!adminPass || !adminError) return
-
+adminLoginBtn?.addEventListener('click', async () => {
   const pass = adminPass.value.trim()
 
-  if (pass !== 'admin123') {
-    adminError.textContent = 'Nesprávné heslo'
+  try {
+    const res = await fetch('/api/login', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ password: pass })
+    })
+
+    if (!res.ok) {
+      adminError.textContent = 'Nesprávné heslo'
+      adminError.classList.remove('hidden')
+      return
+    }
+
+    const data = await res.json()
+  } catch (err) {
+    console.error('Chyba přihlášení:', err)
+    adminError.textContent = 'Chyba při přihlašování'
     adminError.classList.remove('hidden')
-    return
   }
-  adminError.classList.add('hidden')
-  adminError.textContent = ''
-  adminPass.value = ''
-
-  isAdmin = true
-
-  applyRoleNav()
-  renderAdminAuthUI()
-  btnAdmin?.click()
-
-  currentPage = 'admin'
-  navButtons.forEach(b => {
-    b.classList.toggle('active', b.dataset.page === 'admin')
-  })
-
-  grid.style.display = 'none'
-  adminSection.style.display = 'block'
-  bookingPanel.style.display = 'none'
-
-  // NESMÍME zobrazit tabulku na admin stránce:
-  bottomPanel.style.display = 'none'
-  bottomPanel.classList.remove('bottomPanelTop')
 })
 
 adminLogoutBtn?.addEventListener('click', () => {
