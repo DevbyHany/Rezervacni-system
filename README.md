@@ -50,12 +50,13 @@ Přihlašovací heslo admina: admin123
 - Globální zpracování výjimek
 - Kontrola duplicitních termínů
 - H2 databáze
+- Spring Security
 
 ---
 
 ## Použité technologie
 
-**Backend:** Java, Spring Boot, Spring Data JPA, Hibernate, H2, Maven  
+**Backend:** Java, Spring Boot, Spring Data JPA, Hibernate, H2, Maven, Spring Security
 **Frontend:** JavaScript, Vite, CSS
 
 ---
